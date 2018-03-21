@@ -26,7 +26,7 @@ from PyMata.pymata import PyMata
 
 # Ping callback function
 def cb_ping(data):
-    print(str(data[2]) + ' centimeters')
+    print(str(data[12][1]) + ' centimeters')
 
 
 # Create a PyMata instance
